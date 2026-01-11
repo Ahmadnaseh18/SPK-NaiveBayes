@@ -66,7 +66,7 @@ else { $sapa = "Selamat Malam"; $emoji = "🌙"; }
 
 <div class="welcome-banner p-4 mb-4 shadow-sm d-flex justify-content-between align-items-center">
     <div>
-        <h4 class="fw-bold text-primary mb-1"><?= $sapa ?>, <?= $_SESSION['username'] ?>! <?= $emoji ?></h4>
+        <h4 class="fw-bold text-primary mb-1"><?= $sapa ?>! <?= $emoji ?></h4>
         <p class="text-muted mb-0 small">
             <i class="bi bi-calendar-event me-1"></i> <?= date('l, d F Y') ?> &bull; 
             Sistem siap digunakan untuk prediksi hari ini.
